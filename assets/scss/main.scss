@@ -1,0 +1,63 @@
+@import "_generals.scss";
+
+@import "_mixin.scss";
+
+@import "_variables.scss";
+
+// sass --watch assets/scss/main.scss assets/css/styles.css
+
+section {
+    margin: 10vh 0 0 20%;
+
+    i {
+        font-size: 48px;
+        margin-left: 20px;
+    }
+
+    i:nth-of-type(1) {
+        @include twitter;
+    }
+
+    i:nth-of-type(2) {
+        @include behance;
+    }
+
+    i:nth-of-type(3) {
+        @include facebook;
+    }
+
+    i:nth-of-type(4) {
+        @include vimeo;
+    }
+
+    i:nth-of-type(5) {
+        @include snapchat;
+    }
+
+    i:nth-of-type(6) {
+        color: #fd5c63;
+    }
+
+    i:nth-of-type(7) {
+        color: #ff9900;
+    }
+    i:nth-of-type(8) {
+        @include android;
+    }
+
+    i:nth-of-type(9) {
+        color: #f48024;
+    }
+
+    i:nth-of-type(10) {
+        color: #77216f;
+    }
+
+    i:nth-of-type(11) {
+        color: #4078c0;
+    }
+
+    i:nth-of-type(12) {
+        @include js;
+    }
+}

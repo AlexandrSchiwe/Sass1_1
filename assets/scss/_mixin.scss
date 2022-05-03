@@ -1,0 +1,35 @@
+@mixin twitter {
+    color: #1da1f2;
+}
+
+@mixin behance {
+    color: #1769ff;
+}
+
+@mixin facebook {
+    color: #1877f2;
+    font-size: 60px;
+}
+
+@mixin vimeo {
+    color: #1ab7ea;
+}
+
+
+@mixin snapchat {
+    color: white;
+    border: 2px solid $snapchatMainColor;
+    background-color: $snapchatMainColor;
+    border-radius: 50%;
+}
+
+@mixin android {
+    color: #a4c639;
+    font-size: 100px;
+}
+
+@mixin js {
+    color: white;
+    background-color: #f7df1e;
+    border-radius: 5px;
+}
